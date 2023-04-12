@@ -1,0 +1,107 @@
+**{
+    font-family: "Josefin Sans";
+}
+.backgrnd{
+    position: absolute;
+width: 1440px;
+height: 300px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(225deg, #5596FF 0%, #AC2DEB 100%);
+}
+.backg{
+    position: absolute;
+width: 1440px;
+height: 960px;
+left: 0px;
+top: -5px;
+background: url(Bitmap.png);
+mix-blend-mode: normal;
+background-repeat: no-repeat;
+}
+.too{
+letter-spacing: 15px;
+color: #FFFFFF;
+margin-left: 20%;
+margin-top: 4%;
+margin-bottom: 0;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.img1{
+    
+margin-left: 60%;
+margin-top: -100%;
+}
+
+li{
+    
+list-style-type:circle;
+}
+
+.list{
+    margin-left: 30%;
+    margin-top: 3%;
+    background-color: #fff;
+    width: 400px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: .5em;
+    flex: 1;
+}
+
+.input{
+    border: none;
+    outline: none;
+    height: 47px;
+    padding-left: 5px;
+    width: 350px;
+}
+.input::after{
+    background-color: black;
+}
+.circle{
+    width: 27px;
+    height: 27px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.lit{
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgb(10, 20, 20);
+    margin-top: 15em;
+    margin-left: 32%;
+    width: 400px;
+    height: 19em;
+    
+    
+    
+}
+
+.ggg::marker{
+    color: skyblue;
+    font-size: 3.5em;
+    padding-block: 10px;
+    padding-left: 70px;
+}
+
+.lis{
+    
+    list-style-type: none;
+}
+
+.sw{
+    margin-left: 12em;
+    margin-right: 12em;
+}
